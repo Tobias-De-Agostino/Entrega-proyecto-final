@@ -1,0 +1,48 @@
+@media(max-width:450px){
+    .header-txt{
+        h1{
+            font-size: 35px;
+        }
+    }
+    .img{
+        display: none;
+    }
+    .T1{
+        font-size: 12px;
+    }
+    .T2{
+        font-size: 28px;
+    }
+    .T3{
+        font-size: 8px;
+    }
+    .Descuento10{
+        font-size: 14px;
+        img{
+            height: 25px;
+            width: 25px;
+        }
+    }
+    .Contacto{
+        font-size: 12px;
+        h3{
+            font-size: 16px;
+        }
+    }
+    .Info{
+        flex-direction: column;
+        gap: 40px;
+        h3{
+            font-size: 14px;
+        }
+    }
+    .Tienda{
+        gap: 10px;
+    }
+    .Redes{
+        gap: 10px;
+    }
+    .Copi{
+        font-size: 10px;
+    }
+}

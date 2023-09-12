@@ -1,0 +1,36 @@
+@media(max-width:600px){
+    .img{
+        gap: 0;
+    }
+    .T1{
+        font-size: 14px;
+    }
+    .T2{
+        font-size: 32px;
+    }
+    .T3{
+        font-size: 10px;
+    }
+    .Descuento10{
+        font-size: 20px;
+        img{
+            height: 45px;
+            width: 45px;
+        }
+    }
+    .Contacto{
+        font-size: 14px;
+        h3{
+            font-size: 20px;
+        }
+    }
+    .Info{
+        gap: 20px;
+        h3{
+            font-size: 14px;
+        }
+    }
+    .Redes{
+        gap: 30px;
+    }
+}

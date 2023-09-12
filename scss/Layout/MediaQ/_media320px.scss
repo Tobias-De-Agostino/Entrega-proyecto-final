@@ -1,0 +1,32 @@
+@media(max-width:320px){
+    .products{
+        h2{
+            font-size: 40px;
+        }
+    }
+    .T1{
+        font-size: 11px;
+    }
+    .T2{
+        font-size: 26px;
+    }
+    .T3{
+        font-size: 5px;
+    }
+    .Descuento10{
+        font-size: 12px;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .Contacto{
+        font-size: 8px;
+        h3{
+            font-size: 12px;
+        }
+    }
+    .Redes{
+        gap: 6px;
+    }
+}

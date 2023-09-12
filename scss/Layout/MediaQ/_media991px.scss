@@ -1,0 +1,104 @@
+@media(max-width:991px){
+    .menu{
+        padding: 20px;
+        label{
+            display: initial;
+        }
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #181818;
+        display: none;
+        ul{
+            li{
+                width: 100%;
+            }
+        }
+    }
+    .menu .navbar{
+        ul{
+            li{
+                a{
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .logo{
+        display: none;
+    }
+    .submenu:hover #carrito{
+        min-width: 100%;
+    }
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 50px 0;
+        flex-direction: column;
+    }
+    .header-txt{
+        flex-basis: 100%;
+        text-align: center;
+        h1{
+            font-size: 50px;
+        }
+    }
+    .img{
+        gap: 10px;
+    }
+    .img1{
+        img{
+            width: 350px;
+            height: 400px;
+        }
+    }
+    .img2{
+        img{
+            width: 400px;
+            height: 450px;
+        }
+    }
+    .products{
+        padding: 0 30px 30px 30px;
+        h2{
+            margin-bottom: 30px;
+        }
+    }
+    .product-content{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .product{
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .footer{
+        // padding: 30px;
+    }
+    .footer-content{
+        // flex-direction: column;
+        // text-align: center;
+    }
+    .Info{
+        gap: 70px;
+    }
+    .Tienda{
+        font-size: 14px;
+    }
+    .Redes{
+        gap: 50px;
+        img{
+            width: 25px;
+            height: 25px;
+        }
+    }
+}
