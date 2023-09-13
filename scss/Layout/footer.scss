@@ -1,7 +1,3 @@
-.footer{
-    // padding: 60px 0;
-    // background-color: #111111;
-}
 .footer-content{
     @include flex(row, none, none, none);
     border: solid 2px black;
@@ -14,7 +10,6 @@
     font-family: Code;
     height: 31.1875rem;
     width: 40%;
-    // padding-left: 200px;
     h3{
         font-size: 1.375rem;
         font-family: Akira;

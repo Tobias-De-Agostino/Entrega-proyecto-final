@@ -16,38 +16,44 @@
     align-items: center;
     width: 840px;
     height: 779px;
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        p{
+            a{
+                display: flex;
+                flex-direction: row;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
 
 }
 .IniciarSesionT{
     font-size: 6rem;
 }
-.IniciarSesion div{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-}
-.IniciarSesion div p a{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-.Formu div{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: start;
-    font-size: 1.75rem;
+.Formu{
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        font-size: 1.75rem;
+    }
 }
 
-.Contra p{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 1.25rem;
+.Contra{
+    p{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
 }
 .Error{
     color: red;

@@ -8,11 +8,9 @@
 @import "./layout/body";
 @import "./layout/header";
 @import "./layout/main-index";
-// @import "./layout/main-destacado";
 @import "./layout/main-iniciar";
-// @import "./layout/main-hombre";
-// @import "./layout/main-mujer";
 @import "./layout/footer";
+@import "./layout/Page404";
 
 /*todo lo correspondiente a los mediaquerry*/
 @import "./layout/mediaQ/_media991px.scss";

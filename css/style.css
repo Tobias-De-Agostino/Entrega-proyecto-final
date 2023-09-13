@@ -302,23 +302,21 @@ img {
   align-items: center;
   width: 840px;
   height: 779px; }
+  .IniciarSesion div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; }
+    .IniciarSesion div p a {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      color: black;
+      font-weight: bold; }
 
 .IniciarSesionT {
   font-size: 6rem; }
-
-.IniciarSesion div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem; }
-
-.IniciarSesion div p a {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  color: black;
-  font-weight: bold; }
 
 .Formu div {
   display: flex;
@@ -438,6 +436,34 @@ input {
   font-size: 1.125rem;
   font-family: Code;
   background-color: #D6FF38; }
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: 'Poppins'; }
+  .page_404 img {
+    width: 100%; }
+
+.four_zero_four_bg {
+  background: url("../Images/bg.gif");
+  height: 400px;
+  background-position: center; }
+  .four_zero_four_bg h1 {
+    font-size: 80px; }
+
+.content_box_404 {
+  margin-top: -50px; }
+  .content_box_404 h3 {
+    font-size: 80px; }
+  .content_box_404 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #39ac31;
+    display: inline-block; }
+    .content_box_404 a:hover {
+      text-decoration: none;
+      color: #fff; }
 
 /*todo lo correspondiente a los mediaquerry*/
 @media (max-width: 991px) {
